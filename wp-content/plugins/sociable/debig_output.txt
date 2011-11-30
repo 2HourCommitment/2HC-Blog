@@ -1,0 +1,267 @@
+This Text File Contains All The Gathered Data On Conditionals.
+
+On of the problems I found while rewriting this plugin was that in different situations some conditional tags were firing, 
+this meant that the function to output the sociable links was being skewed. So I wrote a small function to test for most of the conditional tags in wordpress and 
+report the reults.
+
+Here Are My Findings.
+
+Wordpress 3.2 RC2
+
+Home Page - Front Page Displays set to "Your Latest Posts"
+Array
+(
+    [is_home] => TRUE
+    [is_front_page] => TRUE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_post_type_archive] => FALSE
+)
+
+Home Page - Front Page Displays set to A Page
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => TRUE
+    [is_single] => FALSE
+    [is_page] => TRUE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => TRUE
+    [is_trackback] => FALSE
+    [is_post_type_archive] => FALSE
+)
+
+Main Posts Page - With Front Page Set To A Page
+Array
+(
+    [is_home] => TRUE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_post_type_archive] => FALSE
+)
+
+Category Archives
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => TRUE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => TRUE
+    [is_post_type_archive] => FALSE
+)
+
+Tag Archive
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => TRUE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => TRUE
+    [is_post_type_archive] => FALSE
+)
+
+Monthly Archive
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => TRUE
+    [is_year] => FALSE
+    [is_month] => TRUE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => TRUE
+    [is_post_type_archive] => FALSE
+)
+
+
+Post Type Archive
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => TRUE
+    [is_post_type_archive] => TRUE
+)
+
+Search Results
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => TRUE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => FALSE
+    [is_post_type_archive] => FALSE
+)
+
+Taxonomy Archive
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => FALSE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => TRUE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => FALSE
+    [is_trackback] => FALSE
+    [is_archive] => TRUE
+    [is_post_type_archive] => FALSE
+)
+
+Single Post Type:
+Array
+(
+    [is_home] => FALSE
+    [is_front_page] => FALSE
+    [is_single] => TRUE
+    [is_page] => FALSE
+    [is_date] => FALSE
+    [is_year] => FALSE
+    [is_month] => FALSE
+    [is_day] => FALSE
+    [is_time] => FALSE
+    [is_category] => FALSE
+    [is_tag] => FALSE
+    [is_tax] => FALSE
+    [is_author] => FALSE
+    [is_search] => FALSE
+    [is_404] => FALSE
+    [is_paged] => FALSE
+    [is_attachment] => FALSE
+    [is_singular] => TRUE
+    [is_trackback] => FALSE
+    [is_archive] => FALSE
+    [is_post_type_archive] => FALSE
+)

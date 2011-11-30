@@ -22,7 +22,7 @@ define('DB_NAME', '2hcblog');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'RN8folding');
+define('DB_PASSWORD', 'drdoom1');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ')L-h9&ZDMouvJ%:nTM`{B[@E&GrxMYe-nsv`s`[,EFbxqCtW11H2ZT@75t>QsTQT');
-define('SECURE_AUTH_KEY',  '}Y^HDihrOp:F(<<q))bUTh(M:H[u^(uH+V.^3~xbmA|)emPmP[v,mGE.7:ki<_|z');
-define('LOGGED_IN_KEY',    '>*vl:725vd~%ORQXpquq]j///#`PM|+n.5%yS8% a*=zi@8`6OMn)4X98%6Ugy^X');
-define('NONCE_KEY',        '$t],AR5F[_9la^7rI<G}B@{:}27SI;v/B1:$UCpOO{8/Q:0-wjZ7)J*Me1mZn#ZX');
-define('AUTH_SALT',        ' M_KGlO BF8-W>LP-0IF-,U>Ee 5T+-*,K8~H7^Z%Y-(^T[w>$8[cqK7=PkkGO4G');
-define('SECURE_AUTH_SALT', 'W7&Qpl:6JG~@2^7.+ajz-C{f{8,7p&2Qu7B/b/fWPR|T9eIu(x#jV[+nY#=5M+oN');
-define('LOGGED_IN_SALT',   '-~k=f/A6<}m/5+t-B#YaPyLzXZ43PU5l+H@to=/gHjU6BpL5<-%;KZ@7YFv?,SqM');
-define('NONCE_SALT',       'Wx}{^AB2-.QUDsm|)26(e5N,{P*YxKB!VB%c1C)ooiRoyu-&Lu}m<>Km-qFSh/n~');
+define('AUTH_KEY',         'wfgcPa-+@vx=>uwG7Lopkf2tR>lv.j]51^Sl ?@4:HvGG_f!ksSv> =_^k[3-{Op');
+define('SECURE_AUTH_KEY',  ')MxLSh=^4BNQ@q-_f iT[&ti)vKVr+8!fB|;[zd:nYmzt:>{8@%4DB1JUDI+Eh}2');
+define('LOGGED_IN_KEY',    'J}4|2=I6Vl^m#pt*KWJgnZHL$iDKN5(G4,||>p[X!d}rt2V_k aDy@0.7p/nK,/{');
+define('NONCE_KEY',        'e<R[%[|!>V_o0n.wJ}P`b`u+yyWPpv}1wkMV|QO/nR!jit$T(9oOMu+J,sVw(-y2');
+define('AUTH_SALT',        '}*f-OUC*`voN<!^e@Q@e-$(i/IgQsg5z|E[Mnt:),0S2u?M;mseD[st5GN}kxhuO');
+define('SECURE_AUTH_SALT', '49eI}N>6[g+~&ssd5}w`@@HZ&e*u[La~$]y?/tRH|7Ay`>#Sa)&,:#FFJe~%PQwb');
+define('LOGGED_IN_SALT',   '-B_=NdB*+X+^d&sI8hQ`54ND/M[4&qVVvXaX8@Y0L6M(BZIl.0Z=lhVc[<)@@WM&');
+define('NONCE_SALT',       'kIZr{Lx=q,x(? -).x_KCYghy3d`+-5IqN!ypN6dvzfwdhXD^:98(ix:ftq0;H@~');
 
 /**#@-*/
 
@@ -88,3 +88,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('FS_METHOD', 'ssh');

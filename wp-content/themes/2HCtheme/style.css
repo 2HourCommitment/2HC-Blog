@@ -1,0 +1,130 @@
+@import url('../twentyeleven/style.css');
+
+
+/*
+Theme Name:     2HC Theme
+Theme URI:      http: //blog.2hourcommitment.org/
+Description:    2HC-Child theme for the Twenty Eleven theme 
+Author:         2 Hour Commitment Team
+Author URI:     http: //2hourcommitment.org/
+Template:       twentyeleven
+Version:        0.1.0
+Tags:			dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+*/
+
+
+#socialnetworkheader {
+	font-family: FamiliarProBold, helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #505254;
+	margin-top: 10px;
+}
+#socialnetworking {
+	overflow: auto;
+	list-style: none;
+	border: 1px solid grey;
+	padding: 10px;
+	width: 200px;
+	margin: 0 0 20px 0;
+}
+
+
+.socialnetworktext {
+	padding: 5px 0px 0px 10px;
+}
+
+
+#socialnetworking ul li {
+	clear: both;
+}
+
+
+#socialnetworking ul li a div {
+float: left;
+}
+
+
+.facebook {
+	background: url('/wp-content/uploads/images/facebook_button.png') no-repeat;
+	width: 40px;
+	height: 37px;
+	margin: 0px 0px 0px 0px;
+}
+
+.facetext {
+	padding: 5px 0px 0px 5px;
+}
+
+.twitter {
+	background: url('/wp-content/uploads/images/twitter_button.png') no-repeat;
+	width: 41px;
+	height: 40px;
+	margin: 10px 0px 10px 0px;
+}
+
+.twittext {
+	padding: 15px 0px 0px 5px;
+}
+
+.twohourcommitment {
+	background: url('/wp-content/uploads/images/social2hc.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#socialnetworking ul{margin-left:0px;
+list-style: none;
+} 
+
+
+
+
+
+
+
+/*MENUS STYLES*/
+#access ul li {
+	margin-right: 5px;
+}
+#access a {
+	background-color: #505254;
+	color: #DCDDDE;
+}
+
+#access li:hover > a,
+#access a:focus {
+	background: #2B2C2D ;
+	color: white;
+}
+
+
+#access li:active > a,
+#access a:active{
+	background: #505254;
+	color: white;
+	font-weight: bold;
+}
+
+/*BLOG ENTRY STYLES*/
+
+.entry-title, .entry-title a {
+	font-family: FamiliarProBold, helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	letter-spacing: -1px;
+	
+}
+	
+	
+/*FOOTER STYLES*/
+
+#site-generator {
+	
+}
+
+#meta {
+	display: none;
+}
