@@ -1,5 +1,5 @@
 <div id="socialnetworkheader">
-	Check us out at:
+	Check us out on:
 </div>
 <div id="socialnetworking">
 	<ul>
@@ -10,7 +10,7 @@
 			<a href="http://www.twitter.com/2hourcommitment"><div class="twitter"></div><div class="socialnetworktext twittext">Twitter</div></a>
 		</li>
 		<li>
-			<a href="http://www.2hourcommitment.org/"><div class="twohourcommitment"></div><div class="socialnetworktext">2 Hour Commitment</div></a>
+			<a href="http://www.2hourcommitment.org/"><div class="twohourcommitment"></div><div class="socialnetworktext twohctext">2 Hour Commitment</div></a>
 		</li>
 	</ul>
 </div>

@@ -49,29 +49,33 @@ float: left;
 	background: url('/wp-content/uploads/images/facebook_button.png') no-repeat;
 	width: 40px;
 	height: 37px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 3px 0px 0px;
 }
 
 .facetext {
-	padding: 5px 0px 0px 5px;
+	padding: 4px 0px 0px 7px;
 }
 
 .twitter {
 	background: url('/wp-content/uploads/images/twitter_button.png') no-repeat;
 	width: 41px;
 	height: 40px;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 3px 8px 0px;
 }
 
 .twittext {
-	padding: 15px 0px 0px 5px;
+	padding: 16px 0px 0px 5px;
 }
 
 .twohourcommitment {
-	background: url('/wp-content/uploads/images/social2hc.png') no-repeat;
-	width: 40px;
-	height: 40px;
+	background: url('/wp-content/uploads/images/badge_round2.png') no-repeat;
+	width: 39px;
+	height: 42px;
 	margin: 0px 0px 0px 0px;
+}
+
+.twohctext {
+	padding-top: 7px;
 }
 
 
@@ -86,8 +90,16 @@ list-style: none;
 
 
 /*MENUS STYLES*/
+
+#branding #searchform {
+	top:  296px !important;
+}
+
+
+
 #access ul li {
-	margin-right: 5px;
+/*	margin-right: 5px;*/
+	border: 3px solid #404244;
 }
 #access a {
 	background-color: #505254;
