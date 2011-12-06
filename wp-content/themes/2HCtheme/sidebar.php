@@ -1,22 +1,3 @@
-<div id="socialnetworkheader">
-	Check us out on:
-</div>
-<div id="socialnetworking">
-	<ul>
-		<li>
-			<a href="http://www.facebook.com/2hourcommitment"><div class="facebook"></div><div class="socialnetworktext facetext">Facebook</div></a>
-		</li>
-		<li>
-			<a href="http://www.twitter.com/2hourcommitment"><div class="twitter"></div><div class="socialnetworktext twittext">Twitter</div></a>
-		</li>
-		<li>
-			<a href="http://www.2hourcommitment.org/"><div class="twohourcommitment"></div><div class="socialnetworktext twohctext">2 Hour Commitment</div></a>
-		</li>
-	</ul>
-</div>
-
-
-
 <?php
 /**
  * The Sidebar containing the main widget area.
