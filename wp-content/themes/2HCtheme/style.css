@@ -13,7 +13,14 @@ Tags:			dark, light, white, black, gray, one-column, two-columns, left-sidebar, 
 */
 
 #page {
-	min-width: 900px;
+/*	min-width: 900px;*/
+}
+
+#branding #searchform {
+	display:none;
+}
+#branding .only-search + #access div {
+	padding-right: 0px;
 }
 
 
@@ -24,7 +31,8 @@ Tags:			dark, light, white, black, gray, one-column, two-columns, left-sidebar, 
 	font-weight: bold;
 	font-size: 20px;
 	color: #505254;
-	margin-top: 10px;
+	margin-top: 0;
+	padding-bottom: 5px;
 	overflow: auto;
 }
 
@@ -32,7 +40,7 @@ Tags:			dark, light, white, black, gray, one-column, two-columns, left-sidebar, 
 	overflow: auto;
 	list-style: none;
 	border: 1px solid grey;
-	padding: 10px;
+	padding: 3px 10px 5px 10px;
 	width: 200px;
 	margin: 0 0 20px 0;
 }
@@ -99,15 +107,25 @@ list-style: none;
 
 /*MENUS STYLES*/
 
-#searchform {
-position: relative;
+#access {
+	min-width: 320px;
 }
 
+body, input, textarea {
+	line-height: 1.5;
+}
+
+
+#access {
+	padding-top: 1px;
+}
 
 
 #access ul li {
 /*	margin-right: 5px;*/
-	border: 3px solid #404244;
+/*	border: 3px solid #404244;*/
+	border-right: 3px solid #404244; ;
+	border-left: 3px solid #404244;
 }
 #access a {
 	background-color: #505254;

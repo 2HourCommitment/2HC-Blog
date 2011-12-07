@@ -11,10 +11,11 @@ Author URI: http://2hourcommitment.org/
 function simplelinkhtml()
 {
 ?>
-<div id="socialnetworkheader">
+<!--<div id="socialnetworkheader">
 	Check us out on:
-</div>
+</div>-->
 <div id="socialnetworking">
+	<div id="socialnetworkheader" class="widgettitle">Check us out on:</div>
 	<ul>
 		<li>
 			<a href="http://www.facebook.com/2hourcommitment"><div class="facebook"></div><div class="socialnetworktext facetext">Facebook</div></a>
@@ -23,7 +24,7 @@ function simplelinkhtml()
 			<a href="http://www.twitter.com/2hourcommitment"><div class="twitter"></div><div class="socialnetworktext twittext">Twitter</div></a>
 		</li>
 		<li>
-			<a href="http://www.2hourcommitment.org/"><div class="twohourcommitment"></div><div class="socialnetworktext twohctext">2 Hour Commitment</div></a>
+			<a href="http://2hourcommitment.org/"><div class="twohourcommitment"></div><div class="socialnetworktext twohctext">2 Hour Commitment</div></a>
 		</li>
 	</ul>
 </div>
